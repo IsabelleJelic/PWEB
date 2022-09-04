@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #3e184d;
+}
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 100vh;
+    height: 100%;
+    margin: auto;
+    
+}
+img {
+
+    transition: all 200ms;
+
+}
+
+img:hover {
+    cursor: pointer;
+    transition: all 500ms ;
+    filter: brightness(1.1);
+    transform: scale(1.02);
+}
+h1,h2,p{
+    color:rgb(204, 230, 231);
+}
